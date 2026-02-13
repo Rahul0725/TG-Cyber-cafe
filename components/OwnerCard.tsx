@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Phone, Send, User } from 'lucide-react';
+import { Phone, Send } from 'lucide-react';
 
 export const OwnerCard: React.FC = () => {
   return (
@@ -19,8 +19,12 @@ export const OwnerCard: React.FC = () => {
           {/* Avatar / Icon */}
           <div className="relative">
             <div className="absolute -inset-4 bg-neonOrange/20 blur-xl rounded-full" />
-            <div className="relative w-20 h-20 bg-[#111] rounded-full border-2 border-neonOrange/50 flex items-center justify-center shadow-[0_0_20px_rgba(255,85,0,0.3)]">
-              <User className="w-8 h-8 text-neonOrange" />
+            <div className="relative w-24 h-24 bg-[#111] rounded-full border-2 border-neonOrange/50 overflow-hidden shadow-[0_0_20px_rgba(255,85,0,0.3)]">
+              <img 
+                src="https://raw.githubusercontent.com/Rahul0725/Sound-effects-/refs/heads/main/IMG_20250908_024654_526.webp" 
+                alt="Habib" 
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
